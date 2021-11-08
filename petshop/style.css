@@ -1,0 +1,26 @@
+* {
+    margin:0%;
+    max-width: 100%;
+    height: auto;
+    
+}
+.bannerIdioma {
+    background-color: black;
+    color: white;
+}
+li {
+    list-style-type: none;
+}
+
+.parrafos {
+    background-image: url('./img/bowl-and-pet-daities-on-green-background\ 1.jpg'); 
+    background-size: cover;
+    height: 409px;
+}
+
+.fas fa-paw {
+    color: white;
+}
+nav {
+    background-color: orange;
+}
