@@ -1,0 +1,15 @@
+* {
+    box-sizing: border-box;
+    background: #E5E5E5;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    display: flex;
+}
+.contenedorHeroes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
