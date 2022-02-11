@@ -1,26 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 * {
     margin:0%;
-    max-width: 100%;
-    height: auto;
-    
+    padding: 0%;
+    box-sizing: border-box;  
+}
+.offert {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 20px;
+    color: white;
 }
 .bannerIdioma {
-    background-color: black;
-    color: white;
+    display: flex;
+    justify-content: flex-start;
+    width: 100px;
+    gap: 20px;
 }
 li {
     list-style-type: none;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 .parrafos {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     background-image: url('./img/bowl-and-pet-daities-on-green-background\ 1.jpg'); 
     background-size: cover;
     height: 409px;
 }
-
-.fas fa-paw {
-    color: white;
+.parrafos h1 {
+    background-color: white;
+    width:  365px;
+    padding: 10px;
+    
 }
-nav {
-    background-color: orange;
+
+.navegacion {
+    display: flex;
+    justify-content: space-between;
+    background: #F0A83E;
+    align-items: center;
+}
+.iconos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 22px;
+    height: 62px;
+    color: white;
 }
